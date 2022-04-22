@@ -2082,6 +2082,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}.rounded-lg {
+  border-radius: 0.5rem;
+}.rounded-t-none {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}.rounded-b-lg {
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
 }.border-2 {
   border-width: 2px;
 }.border-cyan-300 {
@@ -2107,6 +2115,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1rem;
 }.text-center {
   text-align: center;
+}.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }.text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -2161,5 +2172,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: block;
   }.lg\:hidden {
     display: none;
+  }.lg\:rounded-t-lg {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
   }
 }
